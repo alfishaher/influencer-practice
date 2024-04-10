@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+/* --------------------------
+header startttttttttt
+---------------------------- */
+
+.navications {
+  margin: 87px 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.manubar {
+  display: flex;
+  gap: 34px;
+  color: #3a3a3a;
+}
+.header {
+  color: #3a3a3a;
+  font-size: 24px;
+  font-weight: 700;
+}
+/*----------------
+ section-1 start 
+------------------*/
+.sec-1-mother-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 120px;
+}
+.sec-1-img {
+  background-image: url(images/Circle\ design.svg);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.sec-1-text {
+  margin-right: 133px;
+}
+.sec-1-title {
+  color: #3a3a3a;
+  font-size: 52px;
+  font-weight: 700;
+}
+.discription {
+  padding: 16px 0;
+  color: #3a3a3a;
+}
+
+.btn {
+  color: #fff;
+  font-weight: 700;
+  padding: 10px 24px;
+  border-radius: 41px;
+  background: #e02c6d;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+/* ...............section-2-start............. */
+.sec-2-mother-div {
+  display: flex;
+  gap: 60.94px;
+  padding: 112px 165px;
+  align-items: center;
+  justify-content: center;
+}
+/* sec-3-start */
+.sec-3-container {
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  justify-content: center;
+  gap: 30px;
+}
+.sec-3-child {
+  padding: 14px;
+}
+.sec-3-header {
+  text-align: center;
+  color: #3a3a3a;
+  font-size: 28px;
+}
+.sec-3-div {
+  width: 302px;
+  height: 476px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  padding: 14px;
+}
+.sec-3-title {
+  color: var(--Text-Gray-900, #18191f);
+  font-size: 28px;
+  font-weight: 500;
+}
+.sec-3-price {
+  color: var(--Dark-Color, rgba(0, 0, 0, 0.87));
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 0;
+}
+.sec-3-details {
+  color: var(--Gray-50, #787885);
+  font-size: 14px;
+  font-weight: 700;
+  padding-right: 120px;
+}
+.fa-star.filled {
+  color: #fb8200;
+}
+.fa-star.empty {
+  color: var(--Orange-60, #fb8200);
+}
+.sec-3-see {
+  color: rgba(224, 44, 109, 0.87);
+  font-weight: 700;
+  padding: top 50px;
+  display: flex;
+  gap: 8px;
+}
+/* section-4-startttttt */
+.sec-4-title {
+  color: #0a0826;
+  font-size: 38px;
+  font-weight: 700;
+}
+.sec-4-mother-div {
+  display: flex;
+  margin: 100px 220px;
+  gap: 96px;
+  justify-content: center;
+  align-items: center;
+}
+.sec-4-details {
+  margin: 0;
+  padding: 0;
+}
+.sec-4-dicription {
+  color: #6c6c6c;
+  font-weight: 700;
+  margin: 16px 0;
+}
+.sec-2-btn {
+}
+.btn-2 {
+  display: flex;
+  color: #fff;
+  font-style: normal;
+  background: #e02c6d;
+  padding: 10px 24px;
+  border: none;
+}
+/* secton-5-starttttttttttttttttttttttttttt */
+.sec-5-mother-div {
+  width: 100%;
+  height: 239px;
+  background-color: #0a0826;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.sec-5-father-div {
+  padding: 50px 598px;
+}
+.sec-5-div-title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+.sec-5-div-copyright {
+  color: var(--Text-Gray-300, #d9dbe1);
+  font-size: 14px;
+  font-weight: 700;
+  padding: 3px 0;
+}
+.sec-5-div-img {
+  padding-top: 17px;
+}
