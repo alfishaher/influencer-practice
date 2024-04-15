@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pure css dropdoen menu hover animation effect</title>
+    <script
+      src="https://kit.fontawesome.com/3f1fdda27a.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      body {
+        background: #333;
+      }
+      .dropdownmenu ul,
+      .dropdownmenu li {
+        margin: 0;
+        padding: 0;
+      }
+      .dropdownmenu ul {
+        background-color: gray;
+        list-style: none;
+      }
+      .dropdownmenu li {
+        position: relative;
+        float: left;
+        width: auto;
+      }
+      .dropdownmenu a {
+        background: #30a6e6;
+        color: white;
+        display: block;
+        font-weight: 400;
+        font-size: 13px;
+        padding: 15px 55px;
+        text-align: center;
+        text-decoration: none;
+        transition: all 5s ease;
+      }
+      .dropdownmenu li :hover a {
+        background: #34495e;
+      }
+      #submenu {
+        visibility: hidden;
+        position: absolute;
+        left: 0;
+        opacity: 0;
+        top: 35x;
+        z-index: 1;
+      }
+      li:hover ul#submenu {
+        opacity: 1;
+        visibility: visible;
+        top: 80px;
+      }
+      #submenu li {
+        float: none;
+        width: 100%;
+      }
+      #submenu a {
+        background-color: #34495e;
+      }
+      #submenu a:hover {
+        background-color: #df4b05;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="dropdownmenu">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About me</a></li>
+        <li>
+          <a href=""><i class="fa-solid fa-list-ul"></i> </a>
+
+          <ul id="submenu">
+            <li><a href="">SVG Canvas</a></li>
+            <li><a href="">CSS JS</a></li>
+            <li><a href="">Wordpress </a></li>
+          </ul>
+        </li>
+        <li><a href="">News</a></li>
+        <li><a href="">Contact Us</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>
